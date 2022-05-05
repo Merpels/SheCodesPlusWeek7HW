@@ -1,10 +1,17 @@
 body {
-  background-color: #e4e3e5;
+  background-image: linear-gradient(red, yellow);
   font-family: Arial, Helvetica, sans-serif;
+  min-height: calc(100vh - 100px);
+  height: 100;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 800px;
+  margin: 50px auto;
 }
 
 h1 {
-  color: #d764e6;
+  color: #223444;
   font-size: 25px;
   font-weight: 100;
   height: 27px;
@@ -36,15 +43,15 @@ li:first-letter {
 
 .weather-app {
   max-width: 600px;
-  margin: 30px auto;
-  padding: 20px;
+  margin: 50px auto;
+  padding: 45px;
   border: 2px solid black;
-  background-color: #4837cb;
-  color: #d764e6;
+  background-color: #4f3c54;
+  color: #223444;
 }
 
 #city-input {
-  border: 2px solid #d764e6;
+  border: 2px solid #223444;
 }
 
 .overview {
@@ -57,7 +64,7 @@ li:first-letter {
   width: 64px;
 }
 #temperature {
-  font-size: 64px;
+  font-size: 30px;
   line-height: 1;
   font-weight: 400;
 }
@@ -70,5 +77,5 @@ li:first-letter {
 
 #fay {
   text-decoration: none;
-  color: #d764e6;
+  color: #223444;
 }
