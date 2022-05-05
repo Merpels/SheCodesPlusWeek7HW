@@ -75,7 +75,9 @@ li:first-letter {
   bottom: 30px;
 }
 
-#fay {
+#fay-link,
+#c-link {
   text-decoration: none;
   color: #223444;
+  cursor: default;
 }
