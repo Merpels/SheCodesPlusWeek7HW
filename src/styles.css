@@ -51,20 +51,14 @@ li:first-letter {
   margin-bottom: 20px;
 }
 
-.weather-temperature i {
+.weather-temperature img {
   margin-right: 5px;
-  position: relative;
-  top: 15px;
-  float: left;
-  height: 70px;
-  width: 70px;
-  font-size: 50px;
+  height: 64px;
+  width: 64px;
 }
-
 #temperature {
-  color: rgb(33, 33, 33);
-  font-size: 65px;
-  line-height: 1px;
+  font-size: 64px;
+  line-height: 1;
   font-weight: 400;
 }
 
