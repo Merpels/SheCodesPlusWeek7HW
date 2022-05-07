@@ -12,11 +12,12 @@ body {
 
 h1 {
   color: #223444;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 100;
   height: 27px;
   line-height: 28px;
   text-align: left;
+  font-style: italic;
 }
 ul {
   margin: 0 auto;
@@ -55,6 +56,9 @@ li:first-letter {
 
 #city-input {
   border: 2px solid #223444;
+  position: relative;
+  right: 20px;
+  top: 10px;
 }
 
 .overview {
@@ -88,10 +92,21 @@ li:first-letter {
 
 #search-input-button {
   border: 2px solid black;
+  position: relative;
+  right: 30px;
+  top: 10px;
 }
 
 .PHW {
   position: relative;
   left: 20px;
   bottom: 25px;
+}
+
+#currentButton {
+  position: relative;
+  bottom: 30px;
+  left: 70px;
+  border: 2px solid black;
+  background-color: rgb(51, 119, 255);
 }
