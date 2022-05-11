@@ -12,12 +12,16 @@ body {
 
 h1 {
   color: #223444;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 100;
   height: 27px;
   line-height: 28px;
+  font-weight: 300;
   text-align: left;
   font-style: italic;
+  position: relative;
+  font-family: "Inconsolata";
+  top: 20px;
 }
 ul {
   margin: 0 auto;
@@ -63,6 +67,8 @@ li:first-letter {
 
 .overview {
   margin-bottom: 20px;
+  position: relative;
+  bottom: 30px;
 }
 
 .weather-temperature img {
@@ -99,8 +105,9 @@ li:first-letter {
 
 .PHW {
   position: relative;
-  left: 20px;
-  bottom: 25px;
+  left: 15px;
+  bottom: 50px;
+  font-size: 50px;
 }
 
 #currentButton {
@@ -109,4 +116,22 @@ li:first-letter {
   left: 70px;
   border: 2px solid black;
   background-color: rgb(51, 119, 255);
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.3;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
