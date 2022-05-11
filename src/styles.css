@@ -8,6 +8,7 @@ body {
   background-size: cover;
   max-width: 800px;
   margin: 50px auto;
+  padding: -40px;
 }
 
 h1 {
@@ -123,15 +124,15 @@ li:first-letter {
   text-align: center;
   border: 1px solid #223444;
   box-shadow: 1px 1px 10px 3px red;
-  padding: 40px;
+  padding: 30px;
   border-radius: 25%;
-  margin: -10px;
+  margin: -15px;
   position: relative;
   top: 18px;
 }
 
 .weather-forecast-date {
-  font-size: 16px;
+  font-size: 20px;
   opacity: 0.3;
 }
 
@@ -140,5 +141,6 @@ li:first-letter {
 }
 
 .weather-forecast-temperatures {
-  font-size: 13px;
+  font-size: 15px;
+  color: rgb(71, 126, 255);
 }
